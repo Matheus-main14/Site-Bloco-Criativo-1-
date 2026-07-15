@@ -1,0 +1,195 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body{
+    background-color: #dae5f3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #223047;
+    line-height: 1.5;
+}
+
+/* CONTAINER PADRÃO */
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* FAIXAS */
+.faixa{
+    width: 100%;
+}
+
+/* TOPO */
+#topo{
+    padding: 30px 0;
+}
+
+#topo .container{
+    background-color: #88b2e3;
+    padding: 35px;
+    border-radius: 16px;
+}
+
+#topo h1{
+    color: #153678;
+    font-size: 52px;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    font-size: 24px;
+}
+
+/* MENU */
+.menu{
+    margin-bottom: 25px;
+}
+
+.menu .container{
+    background-color: #edf1f6;
+    padding: 18px;
+    border-radius: 12px;
+
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #1f3f87;
+    background-color: white;
+
+    border: 1px solid #9cb2da;
+    border-radius: 8px;
+
+    padding: 10px 18px;
+
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: #dce7fb;
+}
+
+/* MAIN */
+main{
+    padding-bottom: 30px;
+}
+
+/* BLOCOS */
+.bloco{
+    padding: 28px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+/* SOBRE */
+.bloco-sobre{
+    background-color: #dbe7cf;
+}
+
+.bloco-sobre h2{
+    color: #224f1f;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+/* APRENDIZADO */
+.bloco-aprendizado{
+    background-color: #cfddef;
+}
+
+.bloco-aprendizado h2{
+    color: #183b82;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+/* CARDS */
+.cards-aprendizado{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 1 250px;
+
+    background-color: #f5f7fb;
+
+    border: 1px solid #98aed8;
+    border-radius: 12px;
+
+    padding: 22px;
+    
+}
+
+.card h3{
+    color: #1d3d85;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* DESTAQUE */
+.destaque{
+    background-color: #f0dfa0;
+}
+
+.destaque h2{
+    color: #6d4b00;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+/* ÁREA DO AVISO */
+.destaque-acao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.aviso{
+    font-size: 20px;
+    max-width: 700px;
+}
+
+/* BOTÃO */
+.botao{
+    text-decoration: none;
+
+    background-color: #1f4a96;
+    color: white;
+
+    padding: 15px 35px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #183b77;
+}
+
+/* RODAPÉ */
+footer{
+    padding-bottom: 30px;
+}
+
+footer .container{
+    background-color: #bccbe1;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+}

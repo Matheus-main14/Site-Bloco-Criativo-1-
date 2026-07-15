@@ -1,0 +1,65 @@
+/* ==========================================
+        PÁGINA DE SUCESSO
+========================================== */
+
+section{
+
+    min-height:70vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.card{
+
+    border-radius:20px;
+
+}
+
+.icone-sucesso{
+
+    width:110px;
+
+    height:110px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#28a745;
+
+    color:white;
+
+    font-size:60px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+h1{
+
+    color:#5A3E2B;
+
+    font-weight:bold;
+
+}
+
+.btn-warning{
+
+    background:#B67C38;
+
+    border:none;
+
+}
+
+.btn-warning:hover{
+
+    background:#8F5F27;
+
+}

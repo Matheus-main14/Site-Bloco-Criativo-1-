@@ -1,0 +1,62 @@
+/* ================================================= */
+/*                  MENU DE NAVEGAÇÃO                 */
+/* ================================================= */
+
+/* Cor principal do menu */
+.cor-menu{
+    background-color: #6F4E37;
+}
+
+/* Nome do site */
+.navbar-brand{
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: white !important;
+
+}
+
+/* Logo */
+.navbar-brand img{
+
+    border-radius: 50%;
+
+}
+
+/* Links do menu */
+.nav-link{
+
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+
+}
+
+/* Efeito ao passar o mouse */
+.nav-link:hover{
+
+    color: #FFD166 !important;
+
+}
+
+/* Página atual */
+.nav-link.active{
+
+    font-weight: bold;
+    color: #FFD166 !important;
+
+}
+
+/* Botão do menu no celular */
+.navbar-toggler{
+
+    border: none;
+
+}
+
+/* Remove a sombra azul ao clicar */
+.navbar-toggler:focus{
+
+    box-shadow: none;
+
+}
