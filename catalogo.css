@@ -1,0 +1,82 @@
+/* ==========================================
+            CATÁLOGO
+========================================== */
+
+h1{
+
+    color:#5A3E2B;
+    font-weight:bold;
+
+}
+
+.input-group{
+
+    margin-bottom:20px;
+
+}
+
+.form-control{
+
+    border-radius:8px 0 0 8px;
+
+}
+
+.btn-warning{
+
+    background:#B67C38;
+    border:none;
+
+}
+
+.btn-warning:hover{
+
+    background:#8F5F27;
+
+}
+
+.card{
+
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.card img{
+
+    height:220px;
+    object-fit:cover;
+
+}
+
+.badge{
+
+    background:#6F4E37 !important;
+
+}
+
+.page-link{
+
+    color:#5A3E2B;
+
+}
+
+.page-item.active .page-link{
+
+    background:#5A3E2B;
+    border-color:#5A3E2B;
+
+}
+
+section{
+
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
