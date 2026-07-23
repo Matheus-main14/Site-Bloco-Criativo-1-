@@ -30,18 +30,20 @@
 
 .btn-warning{
 
-    background-color: #B67C38;
+    background: linear-gradient(90deg,#5d2e00,#863600,#cc5500);
     border: none;
     color: white;
     padding: 12px 30px;
-    border-radius: 10px;
+    border-radius: 12px;
+    font-weight:600;
     transition: .3s;
 
 }
 
 .btn-warning:hover{
 
-    background-color: #8F5F27;
+    background: linear-gradient(90deg,#cc5500,#863600,#5d2e00);
+    transform:translateY(-2px);
 
 }
 
@@ -56,17 +58,20 @@
 ========================== */
 
 .card{
-
+    background:#fff;
+    border:1px solid #eee;
+    
     border: none;
-    border-radius: 12px;
-    transition: .3s;
+    border-radius: 18px;
+    transition: .35s;
     overflow: hidden;
 
 }
 
 .card:hover{
 
-    transform: translateY(-8px);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow:0 20px 35px rgba(0,0,0,.18);
 
 }
 
@@ -84,6 +89,8 @@
 
     height: 220px;
     object-fit: cover;
+    transition:.4s;
+    transform:scale(1.05);
 
 }
 
@@ -93,9 +100,30 @@
 
 section h2{
 
+    font-size: 2.3rem;
     color: #5A3E2B;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    position:relative
+
+}
+
+
+section h2::after{
+
+content:"";
+
+display:block;
+
+width:80px;
+
+height:4px;
+
+background:#da740f;
+
+margin:10px auto 0;
+
+border-radius:20px;
 
 }
 
@@ -113,8 +141,11 @@ section h2{
 .badge{
 
     background-color: #6F4E37 !important;
-    padding: 8px 12px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
     font-size: .8rem;
+    letter-spacing: .5px;
 
 }
 
@@ -136,6 +167,7 @@ section h2{
 .img-fluid{
 
     border-radius: 15px;
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
 
 }
 
@@ -155,8 +187,7 @@ section h2{
 
 section{
 
-    margin-top: 70px;
-    margin-bottom: 70px;
+    padding:80px 0;
 
 }
 
@@ -166,7 +197,8 @@ section{
 
 .cor-rodape{
 
-    background-color:#5A3E2B;
+    background:#1F2937;
+    padding-top:50px;
     color:white;
 
 }
